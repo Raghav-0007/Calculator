@@ -8,6 +8,7 @@ public class calculator {
             System.out.println("Enter '+' for addition");
             System.out.println("Enter '-' for subtraction");
             System.out.println("Enter '*' for multiplication");
+System.out.println("Enter '/' for Division");
             System.out.println("Enter 'x' for Exit");
             System.out.println("choose an operation: ");
 
@@ -34,6 +35,11 @@ public class calculator {
 case '*':
                     System.out.println("Result: " + (num1 * num2));
                     break;
+
+case '/':
+                    System.out.println("Result: " + (num1 / num2));
+                    break;
+
 
                 default:
                     System.out.println("invalid choice");
