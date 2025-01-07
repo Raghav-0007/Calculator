@@ -7,6 +7,7 @@ public class calculator {
             System.out.println("\nWelcome to calculator");
             System.out.println("Enter '+' for addition");
             System.out.println("Enter '-' for subtraction");
+            System.out.println("Enter '*' for multi");
             System.out.println("Enter 'x' for Exit");
             System.out.println("choose an operation: ");
 
